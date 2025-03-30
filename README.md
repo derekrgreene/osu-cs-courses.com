@@ -1,15 +1,26 @@
 # OSU-CS-Courses.com 
-
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
-## Installation
+# 🚀 OSU CS Courses
+
+## Prerequisites
+- Node.js
+- npm
+- Git
+
+## Clone the Repository
+```bash
+git clone https://github.com/derekgreene11/osu-cs-courses.com.git
+cd osu-cs-courses.com
 ```
-# Install dependencies
+
+## Install Dependencies
+```bash
 npm install
 ```
 
-```
-# Start development server
+## ⚙️ Development
+```bash
 npm run dev
 ```
 
@@ -24,6 +35,15 @@ Inside this project, you'll see the following folders and files:
 │   ├── assets/
 │   ├── content/
 │   │   ├── docs/
+|   |   |   ├── courses/
+|   |   |   ├── guides/
+|   |   |   ├── reference/
+|   |   |   └── resources/
+|   |   ├── community.md
+|   |   ├── courses.md
+|   |   ├── resources.md
+|   |   ├── roadmaps.md
+|   |   └── index.mdx
 │   └── content.config.ts
 ├── astro.config.mjs
 ├── package.json
@@ -48,6 +68,57 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview build locally, before deploying          |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 🤝 Contributing
+
+We welcome contributions from the OSU CS community! Whether you're a current student, alumni, or faculty member, your knowledge and experience are valuable!
+
+How to Contribute
+
+1. **Fork the repository** - Create your own copy of the project to work on.
+2. **Create a branch** - Make your changes in a new branch.
+3. **Submit a pull request** - Once you've made your changes, submit a PR for review.
+
+### Guidelines
+
+- Follow the existing formatting and structure for consistency
+- Include accurate information based on recent course experiences
+- Add references or sources where applicable
+- For course pages, use the template provided in src/content/docs/courses/_template.md
+
+## 📋 Tasks and Roadmap
+High Priority
+
+### High Priority
+- [ ] Create markdown pages for all CS courses in the `/courses` folder
+- [ ] Develop study resource listings for core classes
+- [ ] Design and update the website favicon
+- [ ] Complete basic navigation structure
+
+Course Pages to Create
+
+### Course Pages to Create
+- [ ] CS 161: Introduction to Computer Science I
+- [ ] CS 162: Introduction to Computer Science II
+- [ ] CS 225: Discrete Structures in Computer Science
+- [ ] CS 261: Data Structures
+- [ ] CS 271: Computer Architecture and Assembly Language
+- [ ] CS 290: Web Development
+- [ ] CS 325: Analysis of Algorithms
+- [ ] CS 340: Introduction to Databases
+- [ ] CS 344: Operating Systems I
+- [ ] CS 361: Software Engineering I
+- [ ] CS 362: Software Engineering II
+- [ ] CS 372: Computer Networks
+- [ ] CS 475: Parallel Programming
+- [ ] (Add remaining missing courses to README)
+
+### Feature Roadmap
+
+- [ ] Integrate professor reviews from rate my professor
+- [ ] Add difficulty ratings for each course
+- [ ] Add job/internship resources section
+- [ ] Develop discussion forum or integration with existing community platforms (e.g. Discord)
 
 ## 📚 Additional Resources
 
