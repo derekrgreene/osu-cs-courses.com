@@ -69,7 +69,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🤝 Contributing
 
-We welcome contributions from the OSU CS community! Whether you're a current student, alumni, or faculty member, your knowledge and experience are valuable!
+Contributions from the OSU CS community are welcome! Whether you're a current student, alumni, or faculty member, your knowledge and experience are valuable!
 
 How to Contribute
 
