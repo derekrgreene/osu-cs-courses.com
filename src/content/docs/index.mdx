@@ -1,0 +1,49 @@
+---
+title: OSU CS Courses
+description: A comprehensive guide to Oregon State University's computer science courses, helping students plan their path to success.
+template: splash
+hero:
+  tagline: "Your Guide to Oregon State University's Computer Science Program!"
+  image:
+    light: '../../assets/osu_logo_dark.png'
+    dark: '../../assets/osu_logo_light.png'
+  actions:
+    - text: Browse Courses
+      link: /courses/
+      icon: "right-arrow"
+    - text: Join the Community
+      link: /community/
+      icon: "comment"
+      variant: minimal
+            
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Explore OSU's CS Courses
+
+<CardGrid stagger>
+  <Card title="Course Guides" icon="open-book">
+    Find detailed guides on OSU's CS courses, including prerequisites, difficulty ratings, and study tips.
+    
+    [Explore Courses](/courses/)
+  </Card>
+  
+  <Card title="Study Resources" icon="pencil">
+    Get notes, past exams, and recommended study materials for each class.
+    
+    [Find Resources](/resources/)
+  </Card>
+  
+  <Card title="Community & Advice" icon="comment">
+    Connect with other students, read professor reviews, and get career advice.
+    
+    [Join the Discussion](/community/)
+  </Card>
+  
+  <Card title="Roadmaps & Tips" icon="seti:notebook">
+    Plan your CS degree efficiently with recommended course sequences and strategies.
+    
+    [View Roadmaps](/roadmaps/)
+  </Card>
+</CardGrid>
