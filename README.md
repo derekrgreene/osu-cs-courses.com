@@ -34,6 +34,8 @@ Inside this project, you'll see the following folders and files:
 │   ├── content/
 │   │   ├── docs/
 |   |   |   ├── courses/
+|   |   |   |   ├── core/
+|   |   |   |   └── electives/
 |   |   |   ├── guides/
 |   |   |   ├── reference/
 |   |   |   └── resources/
