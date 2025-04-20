@@ -88,10 +88,10 @@ How to Contribute
 High Priority
 
 ### ❗High Priority
-- [x] Create markdown pages for all CS courses in the `/courses` folder
+- ✅  Create markdown pages for all CS courses in the `/courses` folder
 - [ ] Develop study resource listings for core classes
 - [ ] Design and update the website favicon
-- [x] Complete basic navigation structure
+- ✅  Complete basic navigation structure
 
 Course Pages to Create
 
