@@ -1,5 +1,5 @@
 ---
-title: Example Course
+title: The Oregon State Engineering Student
 description: Informative description of the course
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Example Course
+title: Engineering Computation And Algorithmic Thinking
 description: Informative description of the course
 ---
 
