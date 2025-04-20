@@ -88,14 +88,14 @@ How to Contribute
 High Priority
 
 ### ❗High Priority
-- [ ] Create markdown pages for all CS courses in the `/courses` folder
+- [x] Create markdown pages for all CS courses in the `/courses` folder
 - [ ] Develop study resource listings for core classes
 - [ ] Design and update the website favicon
-- [ ] Complete basic navigation structure
+- [x] Complete basic navigation structure
 
 Course Pages to Create
 
-### Course Pages to Create
+### Course Pages in need of Content
 - [ ] CS 161: Introduction to Computer Science I
 - [ ] CS 162: Introduction to Computer Science II
 - [ ] CS 225: Discrete Structures in Computer Science
