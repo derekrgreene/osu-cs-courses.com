@@ -91,6 +91,7 @@ High Priority
 :white_check_mark: Create markdown pages for all CS courses in the `/courses` folder
 - [ ] Develop study resource listings for core classes
 - [ ] Design and update the website favicon
+
 :white_check_mark: Complete basic navigation structure
 
 Course Pages to Create
