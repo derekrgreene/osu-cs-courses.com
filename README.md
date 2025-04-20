@@ -8,7 +8,7 @@
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/derekgreene11/osu-cs-courses.com.git
+git clone https://github.com/derekrgreene/osu-cs-courses.com.git
 cd osu-cs-courses.com
 ```
 
