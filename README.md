@@ -87,7 +87,7 @@ How to Contribute
 ## 📋 Tasks and Roadmap
 High Priority
 
-### High Priority❗
+### ❗High Priority
 - [ ] Create markdown pages for all CS courses in the `/courses` folder
 - [ ] Develop study resource listings for core classes
 - [ ] Design and update the website favicon
