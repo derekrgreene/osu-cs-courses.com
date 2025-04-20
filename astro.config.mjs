@@ -9,7 +9,7 @@ export default defineConfig({
       title: 'OSU CS Courses',
       description: 'A comprehensive guide to Oregon State University\'s computer science courses',
       social: {
-        github: 'https://github.com/derekrgreene/osu-cs-courses',
+        github: 'https://github.com/derekrgreene/osu-cs-courses.com',
       },
       sidebar: [
         {
