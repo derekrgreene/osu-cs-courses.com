@@ -75,7 +75,7 @@ All commands are run from the root of the project, from a terminal:
 
 Contributions from the OSU CS community are welcome! Whether you're a current student, alumni, or faculty member, your knowledge and experience are valuable!
 
-How to Contribute
+### How to Contribute
 
 1. **Fork the repository** - Create your own copy of the project to work on.
 2. **Create a branch** - Make your changes in a new branch.
