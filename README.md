@@ -119,7 +119,9 @@ Contributions from the OSU CS community are welcome! Whether you're a current st
 ### Feature Roadmap
 
 - [ ] Integrate professor reviews from rate my professor
-- [ ] Add difficulty ratings for each course
+
+:white_check_mark: Add difficulty ratings for each course
+
 - [ ] Add job/internship resources section
 - [ ] Develop discussion forum or integration with existing community platforms (e.g. Discord)
 
