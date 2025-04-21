@@ -89,7 +89,6 @@ How to Contribute
 - For course pages, use the template provided in src/content/docs/courses/_template.md
 
 ## 📋 Tasks and Roadmap
-High Priority
 
 ### ❗High Priority
 
