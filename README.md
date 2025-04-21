@@ -99,8 +99,6 @@ High Priority
 
 :white_check_mark: Complete basic navigation structure
 
-Course Pages to Create
-
 ### Course Pages in need of Content
 - [ ] CS 161: Introduction to Computer Science I
 
