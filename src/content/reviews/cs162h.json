@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Jane Doe",
+      "text": "This course was a great intro to C++!",
+      "rating": 4
+    },
+    {
+      "name": "Alex M.",
+      "text": "The assignments were tough but fair.",
+      "rating": 5
+    }
+  ]
+  

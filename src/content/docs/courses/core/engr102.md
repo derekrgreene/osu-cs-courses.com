@@ -1,5 +1,5 @@
 ---
-title: Design Engineering And Problem Solving
+title: ENGR 102 - Design Engineering And Problem Solving
 description: Informative description of the course
 ---
 

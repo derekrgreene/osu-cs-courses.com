@@ -1,0 +1,48 @@
+---
+// src/components/CourseReviewForm.astro
+const { courseId } = Astro.props;
+---
+
+// need to write API to handle POST request
+
+<form method="POST" action={`https://osu-cs-courses.com/reviews/${courseId}`} style="margin-top: 2rem;">
+  <h3>Add Your Review</h3>
+
+  <label>
+    Name:
+    <input type="text" name="name" required />
+  </label>
+  <br />
+
+  <label>
+    Rating:
+    <select name="rating" required>
+      <option value="">Select...</option>
+      <option value="1">1 - ⭐☆☆☆☆</option>
+      <option value="2">2 - ⭐⭐☆☆☆</option>
+      <option value="3">3 - ⭐⭐⭐☆☆</option>
+      <option value="4">4 - ⭐⭐⭐⭐☆</option>
+      <option value="5">5 - ⭐⭐⭐⭐⭐</option>
+    </select>
+  </label>
+  <br />
+
+  <label>
+    Review:
+    <textarea name="text" required></textarea>
+  </label>
+  <br />
+
+  <input type="hidden" name="date" id="review-date" />
+
+  <button type="submit">Submit Review</button>
+
+  <script type="text/javascript">
+    function addDate(e) {
+      const dateInput = document.getElementById('review-date');
+      const now = new Date();
+      const iso = now.toISOString().split('T')[0]; // YYYY-MM-DD
+      dateInput.value = iso;
+    }
+  </script>
+</form>

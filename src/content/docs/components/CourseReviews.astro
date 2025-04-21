@@ -1,0 +1,41 @@
+---
+// src/components/CourseReviews.astro
+import CourseReviewForm from './CourseReviewForm.astro';
+import { readFile } from 'fs/promises';
+import path from 'path';
+
+const { courseId } = Astro.props;
+let reviews = [];
+
+// Helper to turn 3 → ⭐⭐⭐☆☆ (3/5)
+function renderStars(rating) {
+  const stars = '⭐'.repeat(rating) + '☆'.repeat(5 - rating);
+  return `${stars} (${rating}/5)`;
+}
+
+try {
+  const filePath = path.resolve(`./src/content/reviews/${courseId}.json`);
+  const json = await readFile(filePath, 'utf-8');
+  reviews = JSON.parse(json);
+} catch (err) {
+  console.warn(`No reviews found for course: ${courseId}`);
+}
+---
+
+<section>
+  <h2>Student Reviews</h2>
+  {reviews.length === 0 ? (
+    <p>No reviews yet! Be the first to write one.</p>
+  ) : (
+    <ul>
+      {reviews.map(review => (
+        <li>
+          <p><strong>{review.name}</strong></p>
+          <p>Rating: {renderStars(review.rating)}</p>
+          <p>{review.text}</p>
+        </li>
+      ))}
+    </ul>
+  )}
+  <CourseReviewForm courseId={courseId} />
+</section>
