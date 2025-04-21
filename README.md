@@ -103,7 +103,9 @@ Course Pages to Create
 
 ### Course Pages in need of Content
 - [ ] CS 161: Introduction to Computer Science I
-- [ ] CS 162: Introduction to Computer Science II
+
+:white_check_mark:  Introduction to Computer Science II
+
 - [ ] CS 225: Discrete Structures in Computer Science
 - [ ] CS 261: Data Structures
 - [ ] CS 271: Computer Architecture and Assembly Language
