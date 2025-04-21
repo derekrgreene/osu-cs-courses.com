@@ -33,12 +33,14 @@ Inside this project, you'll see the following folders and files:
 │   ├── assets/
 │   ├── content/
 │   │   ├── docs/
+|   |   |   ├── components/
 |   |   |   ├── courses/
 |   |   |   |   ├── core/
 |   |   |   |   └── electives/
 |   |   |   ├── guides/
 |   |   |   ├── reference/
-|   |   |   └── resources/
+|   |   |   ├── resources/
+|   |   |   └── reviews/
 |   |   ├── community.md
 |   |   ├── courses.md
 |   |   ├── resources.md
